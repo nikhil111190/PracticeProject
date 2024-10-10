@@ -1,0 +1,52 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .add-task-window {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    border-radius: 5px;
+    overflow: hidden; /* Add border-radius effect */
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle; /* Aligns text vertically center */
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Light gray for odd rows */
+  }
+  
+  thead.thead-dark th {
+    background-color: #343a40; /* Dark background for the header */
+    color: white; /* White text for header */
+  }
+  
+  .btn {
+    margin-right: 5px; /* Adds space between buttons */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green button */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107; /* Yellow button */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red button */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Gray button */
+  }
+  
